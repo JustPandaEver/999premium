@@ -7,31 +7,31 @@ select opt in "${options[@]}"
 do
     case $opt in
         "Bot Doge")
-            python3.7 doge.py
+            python doge.py
             ;;
 	"Bot LTC")
-	    python3.7 ltc.py
+	    python ltc.py
 	    ;;
 	"Bot ETH")
-            python3.7 eth.py
+            python eth.py
             ;;
 	"Bot BTC")
-            python3.7 btc.py
+            python btc.py
             ;;
         "Setting Betset/settingan")
             sh sh
             ;;
 	"Membuat akun 999dice baru")
-	    python3.7 reg.py
+	    python reg.py
             ;;
 	"Withdraw")
-            python3.7 with.py
+            python with.py
             ;;
 	"Deposit")
-            python3.7 depo.py
+            python depo.py
             ;;
 	"Donasi")
-            python3.7 donasi.py
+            python donasi.py
             ;;
         "Keluar")
             break
